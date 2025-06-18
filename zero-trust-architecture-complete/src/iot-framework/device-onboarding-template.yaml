@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Device
+metadata:
+  name: sensor001
+spec:
+  identity: sensor001-cert
+  network: zone1
+  tls: true

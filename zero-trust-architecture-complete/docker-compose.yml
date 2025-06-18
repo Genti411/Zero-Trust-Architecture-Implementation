@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  zta-scan:
+    build: .
+    volumes:
+      - ./src/compliance-scanner/output:/app/output
+    environment:
+      - API_KEY=${API_KEY}

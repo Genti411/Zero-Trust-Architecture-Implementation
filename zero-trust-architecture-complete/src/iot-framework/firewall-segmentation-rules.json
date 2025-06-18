@@ -1,0 +1,6 @@
+{
+  "rules": [
+    {"source": "iot-zone", "destination": "app-zone", "protocol": "HTTPS", "action": "allow"},
+    {"source": "unknown", "destination": "*", "action": "deny"}
+  ]
+}
